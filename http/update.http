@@ -1,0 +1,7 @@
+PUT http://localhost:5000/api/superheroes/10
+Content-Type: application/json
+
+{
+    "realName": "Alex Merfy",
+    "power": "power 2"
+}

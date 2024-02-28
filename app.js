@@ -1,5 +1,5 @@
 const express = require('express');
-const rootRouter = require('./roots/rootRouter');
+const rootRouter = require('./routes/rootRouter');
 const {errorHandler} = require('./errorHandler');
 
 const app = express();
